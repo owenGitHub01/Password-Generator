@@ -14,9 +14,8 @@ function Body(){
     const onClick = ({Lowercase, Uppercase, Numbers, Symbols}) => {
         Generate({Lowercase, Uppercase, Numbers, Symbols}, value)
     }
-
     return(
-        <div className="outline outline-2 rounded w-5/6 h-72 sm:w-3/6 sm:h-60">
+        <div className="outline outline-2 rounded w-5/6 h-80 sm:w-3/6 sm:h-60">
             <div>
                 <Value value={value} onChange={onChange}/>
             </div>

@@ -23,8 +23,8 @@ export default function Checkbox({click}) {
             <div>
                 <form className="sm:flex sm:justify-center sm:items-center sm:pt-4">
                     {Object.entries(conditions).map(([key, value]) => (
-                    <div key={key} className="flex mt-2 sm:pl-4 sm:pr-4 sm:pb-4">
-                        <p className="text-xl pr-2 pl-2">{key}:</p>
+                    <div key={key} className="flex mt-2 sm:pl-2 sm:pr-2 sm:pb-4">
+                        <p className="text-xl pr-8 pl-8 sm:pr-2 sm:pr-2">{key}:</p>
                         <input
                         className="w-4"
                         checked={conditions[key]}
