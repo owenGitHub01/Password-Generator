@@ -5,7 +5,7 @@ import Body from "./components/Body"
 function App(){
     return (
         <div className="max-w-full w-screen h-screen bg-gradient-to-r from-slate-100 to-slate-300">
-            <div className="flex items-center justify-center sm:pt-8 pt-12">
+            <div className="flex items-center justify-center sm:pt-4 pt-12">
                 <Header/>
             </div>
             <div className="flex items-center justify-center mt-4">
