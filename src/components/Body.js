@@ -15,7 +15,7 @@ function Body(){
         Generate({Lowercase, Uppercase, Numbers, Symbols}, value)
     }
     return(
-        <div className="outline outline-2 rounded w-5/6 h-96 sm:w-4/6 sm:h-60">
+        <div className="outline outline-2 rounded w-5/6 h-80 sm:w-4/6 sm:h-60">
             <div>
                 <Value value={value} onChange={onChange}/>
             </div>

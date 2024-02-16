@@ -26,7 +26,7 @@ export default function Checkbox({click}) {
                     <div key={key} className="flex mt-4 sm:pl-2 sm:pr-2 sm:pb-4">
                         <p className="text-xl pr-8 pl-8 sm:pr-2 sm:pr-2">{key}:</p>
                         <input
-                        className="w-8"
+                        className="w-4"
                         checked={conditions[key]}
                         onChange={() => handleChange(key)}
                         type="checkbox"
