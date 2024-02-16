@@ -1,6 +1,3 @@
-import { useState } from "react"
-import Shuffle from "./Shuffle"
-
 function Result(){
 
     return (

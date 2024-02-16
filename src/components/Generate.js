@@ -1,6 +1,5 @@
 import { low, upp, num, sym } from "./Data"
 import Shuffle from "./Shuffle"
-// import Result from "./Result"
 
 function Generate({Lowercase, Uppercase, Numbers, Symbols}, value){
     let displayArray = []
