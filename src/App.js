@@ -17,10 +17,9 @@ function App(){
                     <Body />
                 </div>
             </div>
-            <div className="h-1/6 bg-black">
+            <div className="h-1/6 bg-gray-800">
                 <Footer />
             </div>
-            
         </div>
     )
 
